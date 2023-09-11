@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Finder</title>
+    <link rel="stylesheet" href="./movie_finder.css"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="full_body">
+        <div class="title">Movie Finder</div>
+            <div class="search-box">
+                <input type="text" placeholder="search" class="form-input" id="search-input"/>
+                <button class="search" id="search" onclick="search()">Search</button>
+            </div>
+            <h1 id="status"></h1>
+    </div>
+
+    <div class="movie-cards" id="movie-cards">
+        
+    </div>
+</body>
+<script src="./movie_finder.js"></script>
+</html>
